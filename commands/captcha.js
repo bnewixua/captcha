@@ -2,7 +2,7 @@ const { Captcha } = require("captcha-canvas")
 const { AttachmentBuilder, ActionRowBuilder, ButtonBuilder, EmbedBuilder, CaptchaGenerator } = require("discord.js")
 module.exports = {
   name: "captcha",
-  description: "Botun pingini gösterir!",
+  description: "Captcha sistemini kullanırsınız!",
   type: 1,
   options: [],
   run: async (client, interaction, member) => {
