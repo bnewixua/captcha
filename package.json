@@ -1,0 +1,22 @@
+{
+  "name": "wixua",
+  "version": "1.0.0",
+  "description": "Captcha",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "bnewixua",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "captcha-canvas": "^3.2.1",
+    "discord-api-types": "^0.37.5",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^14.3.0",
+    "justdata": "^1.4.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "os": "^0.1.2"
+  }
+}
